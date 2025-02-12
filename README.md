@@ -21,6 +21,10 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 - ✅ Autenticação com **OAuth2** e **JWT**  
 - ✅ Validações de acesso para usuários e administradores
 
+## 🗄️ Configuração do Banco de Dados
+Configure as credenciais no arquivo application.properties:
+
+
 ## 🔑 Autenticação
 A aplicação utiliza OAuth2 e JWT para autenticação e autorização:
 
