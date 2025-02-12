@@ -19,7 +19,13 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 - ✅ Atualização de livros  
 - ✅ Exclusão de livros  
 - ✅ Autenticação com **OAuth2** e **JWT**  
-- ✅ Validações de acesso para usuários e administradores  
+- ✅ Validações de acesso para usuários e administradores
+
+## 🔑 Autenticação
+A aplicação utiliza OAuth2 e JWT para autenticação e autorização:
+
+Login: Realize o login usando o endpoint /login com suas credenciais.
+JWT Token: Após o login, um token JWT será gerado e deve ser incluído no header Authorization para acessar endpoints protegidos.
 
 ## 🔧 Como Executar
 
@@ -30,9 +36,3 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 ### 1. **Clone o repositório**  
    ```sh
    git clone https://github.com/leolimaferreira/libraryapi.git
-
-🔑 Autenticação
-A aplicação utiliza OAuth2 e JWT para autenticação e autorização:
-
-Login: Realize o login usando o endpoint /login com suas credenciais.
-JWT Token: Após o login, um token JWT será gerado e deve ser incluído no header Authorization para acessar endpoints protegidos.
