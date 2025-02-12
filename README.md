@@ -23,6 +23,11 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 
 ## 🗄️ Configuração do Banco de Dados
 Configure as credenciais no arquivo application.properties:
+```sh
+   spring.datasource.url=jdbc:postgresql://localhost:5432/library
+   spring.datasource.username=seu_usuario
+   spring.datasource.password=sua_senha
+```
 
 
 ## 🔑 Autenticação
