@@ -24,9 +24,9 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 ## 🗄️ Configuração do Banco de Dados
 Configure as credenciais no arquivo application.properties:
 ```sh
-   spring.datasource.url=jdbc:postgresql://localhost:5432/library
-   spring.datasource.username=seu_usuario
-   spring.datasource.password=sua_senha
+spring.datasource.url=jdbc:postgresql://localhost:5432/library
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
 ```
 
 
@@ -45,3 +45,9 @@ JWT Token: Após o login, um token JWT será gerado e deve ser incluído no head
 ### 1. **Clone o repositório**  
    ```sh
    git clone https://github.com/leolimaferreira/libraryapi.git
+```
+
+### 🐳 Usando o Docker
+```sh
+docker build -t library-api .
+docker run -p 8080:8080 library-api
