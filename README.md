@@ -51,3 +51,21 @@ JWT Token: Após o login, um token JWT será gerado e deve ser incluído no head
 ```sh
 docker build -t library-api .
 docker run -p 8080:8080 library-api
+```
+
+### 📖 Documentação da API
+
+A documentação completa da API está disponível através do **Swagger** na interface interativa, que permite explorar e testar todos os endpoints da aplicação.
+
+### Como acessar:
+1. **Inicie a aplicação**: Certifique-se de que a aplicação esteja rodando localmente na porta `8080`.
+2. **Acesse o Swagger**: Abra seu navegador e acesse a URL:
+```sh
+http://localhost:8080/swagger-ui/index.html
+```
+### O que você encontrará na documentação:
+- **Listagem de Endpoints**: Todos os endpoints da API são listados, com descrições e exemplos de uso.
+- **Autenticação**: A API utiliza **OAuth2** e **JWT** para autenticação. Para testar os endpoints protegidos, você precisará fornecer um token JWT. Você pode inseri-lo diretamente na interface do Swagger.
+- **Teste Interativo**: Com o Swagger, você pode realizar requisições diretamente na interface, sem necessidade de ferramentas externas. Basta preencher os parâmetros necessários e enviar as requisições para visualizar as respostas.
+- **Modelos de Dados**: A documentação inclui os modelos de dados usados na API, como livros, usuários, etc., com exemplos de entrada e saída.
+
