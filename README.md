@@ -42,7 +42,7 @@ JWT Token: Após o login, um token JWT será gerado e deve ser incluído no head
 - **Java 21** instalado
 - **Docker** (caso queira rodar em contêiner)
 
-### 1. **Clone o repositório**  
+### **Clone o repositório**  
    ```sh
    git clone https://github.com/leolimaferreira/libraryapi.git
 ```
