@@ -22,11 +22,13 @@ Este projeto foi desenvolvido com **Java 21**, **PostgreSQL** e inclui um **Dock
 - ✅ Validações de acesso para usuários e administradores
 
 ## 🗄️ Configuração do Banco de Dados
-Configure as credenciais no arquivo application.properties:
-```sh
-spring.datasource.url=jdbc:postgresql://localhost:5432/library
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+Configure as credenciais no arquivo application.yml:
+```yml
+   spring:
+     datasource:
+      url: jdbc:postgresql://localhost:5432/seu_banco_de_dados
+      username: seu_usuario
+      password: sua_senha
 ```
 
 
